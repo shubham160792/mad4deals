@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Mobile Specific
+    ========================================================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title Tag
+    ========================================================================= -->
+    <title>WP Coupon - An Advanded Coupon Codes and Deals Template</title>
+
+    <!-- Browser Specical Files
+    ========================================================================= -->
+    <!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- Site Favicon
+    ========================================================================= -->
+    <link rel="shortcut icon" href="#" title="Favicon" />
+
+    <!-- WP HEAD
+    ========================================================================= -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="assets/css/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Header JS -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+
+    <!-- PLUGIN CSS -->
+
+    <link rel="stylesheet" href="assets/ST-User/css/style.css">
+
+</head>
+<body>
+<div id="page" class="hfeed site">
+    <header id="masthead" class="ui page site-header">
+        <div class="primary-header">
+            <div class="container">
+                <div class="logo_area fleft">
+                    <a href="index.html" rel="home">
+                        <img src="assets/images/logo.png" alt="Site Logo">
+                    </a>
+                </div>
+                <div class="header-highlight fleft">
+                    <a href="#">
+                        <div class="highlight-icon"><i class="fire icon"></i></div>
+                        <div class="highlight-text">Heating Up</div>
+                    </a>
+                    <a href="#">
+                        <div class="highlight-icon"><i class="shop icon"></i></div>
+                        <div class="highlight-text">Free Shipping</div>
+                    </a>
+                    <a href="#">
+                        <div class="highlight-icon"><i class="tags icon"></i></div>
+                        <div class="highlight-text">Black Friday</div>
+                    </a>
+                </div>
+                <div class="header_right fright">
+                    <form id="header-search">
+                        <div class="header-search-input ui search large action left icon input">
+                            <input class="prompt" placeholder="Search stores for coupons, deals ..." type="text">
+                            <i class="search icon"></i>
+                            <div class="header-search-submit ui button">Search</div>
+                            <div class="results"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="search-sample"><span>Top Searches:</span> <a href="#">Athletefor</a>,  <a href="#">Kmart</a>,  <a href="#">Macy’s</a>,  <a href="#">SmoothThemes</a>,  <a href="#">ThemeForest</a> ...</div>
+                    </form>
+                </div>
+            </div>
+        </div> <!-- END .header -->
+
+        <div class="site-navigation">
+            <div class="container">
+                <nav class="primary-navigation clearfix fleft">
+                    <a href="#content" class="screen-reader-text skip-link">Skip to content</a>
+                    <div id="nav-toggle"><i class="content icon"></i></div>
+                    <ul class="st-menu wpc-menu">
+                        <li class="menu-item-has-children"><a href="#"><i class="unordered list icon"></i> Browse Coupons</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="category_az.html">Browse by Categories</a></li>
+                                <li><a href="store_az.html">Browse by Stores</a></li>
+                                <li><a href="#"># Printable Coupons <i class="print icon"></i></a></li>
+                                <li><a href="#"># Free Shipping </a></li>
+                                <li><a href="#"># Product Deals</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Stores</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="single_store.html">Store Single</a></li>
+                                <li><a href="store_az.html">Stores Index A-Z</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Categories</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="category.html">Category Single</a></li>
+                                <li><a href="category_az.html">Category A-Z Index</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class=""><a href="#"><i class="student icon"></i> Back To School</a></li> -->
+                        <li class="">
+                            <a href="page.html">Pages</a>
+                            <ul>
+                                <li><a href="page.html">Single</a></li>
+                                <li class=""><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="page_submit.html"><i class="edit icon"></i> Submit Coupon</a>
+                            <ul>
+                                <li class=""><a href="page_submit.html">Header Normal</a></li>
+                                <li class=""><a href="page_submit_header_cover.html">Header With Cover</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav> <!-- END .primary-navigation -->
+
+                <div class="nav-user-action fright clearfix">
+                    <ul class="st-menu wpc-menu">
+                        <li class=""><a href="#"><i class="empty star icon"></i> <span class="hide-on-tiny">Saved</span></a>
+                            <div class="menu-box">
+                                <h4 class="menu-box-title">Recently Saved Coupons</h4>
+                                <div class="saved-coupons">
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/udemy.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Up To 60% Off: Shop Electronics Coupons </a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/nature.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Outlet: Up To 70% Off Thousands Of Items</a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/starlight.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Extra 30% off when order online </a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="more-links" href="#">See all your saved coupons <i class="angle right icon"></i></a>
+                            </div>
+                        </li>
+                        <li class=""><a href="#"><i class="empty heart icon"></i> <span class="hide-tiny-screen">Favorites</span></a>
+                            <div class="menu-box">
+                                <h4 class="menu-box-title">Your Favorite Stores</h4>
+                                <div class="ui two column grid">
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/starlight.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/nature.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/udemy.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/vientohotel.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="more-links" href="#">See all your favorite stores <i class="angle right icon"></i></a>
+                            </div>
+                        </li>
+                        <li class="menu-item-has-children"><a href="user_dashboard.html"><i class="power icon"></i> Dashboard</a>
+                            <ul class="sub-menu">
+                                <li><a href="#" class="stuser-login-btn">Sign In Form</a></li>
+                                <li><a href="#" class="st-singup-btn">Register Form</a></li>
+                                <li><a href="user_dashboard.html">Dashboard Page</a></li>
+                                <li><a href="user_edit.html">Account Settings</a></li>
+                                <li><a href="#">Sign Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div> <!-- END .nav_user_action -->
+            </div> <!-- END .container -->
+        </div> <!-- END #primary-navigation -->
+    </header><!-- END #masthead -->
+
+    <div id="content" class="site-content">
+        <section class="page-header-cover">
+            <div class="container">
+                <div class="inner">
+                    <div class="inner-content clearfix">
+                        <div class="header-content">
+                            <h1>Submit A Coupon</h1>
+                        </div>
+                        <div class="ui small breadcrumb">
+                            <a class="section">Home</a>
+                            <i class="right angle right icon divider"></i>
+                            <a class="section">Pages</a>
+                            <i class="right angle right icon divider"></i>
+                            <div class="active section">Submit Coupon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="content-wrap" class="container no-sidebar">
+
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+
+                    <div class="entry-content content-box shadow-box">
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <div class="ui large form">
+                                    <div class="field">
+                                        <select class="ui search dropdown">
+                                            <option value="default">Select Store *</option>
+                                            <option value="1">Athleteform.com</option>
+                                            <option value="2">Amazon.co.uk</option>
+                                            <option value="3">Nature.com</option>
+                                            <option value="4">Religion.com</option>
+                                            <option value="5">Udemy.com</option>
+                                            <option value="6">Bestbuy.com</option>
+                                            <option value="7">Booking.com</option>
+                                            <option value="8">Zappos.com</option>
+                                            <option value="9">Victoriassecret.com</option>
+                                            <option value="10">Bebe.com</option>
+                                            <option value="11">Asos.com</option>
+                                            <option value="12">6pm.com</option>
+                                        </select>
+                                    </div>
+                                    <div class="field">
+                                        <select class="ui dropdown">
+                                            <option value="">Offer Type *</option>
+                                            <option value="1">Coupon Code</option>
+                                            <option value="2">Sale</option>
+                                            <option value="3">Printable</option>
+                                        </select>
+                                    </div>
+                                    <div class="field">
+                                        <label>Add code or change offer type</label>
+                                        <input type="text" placeholder="Code">
+                                    </div>
+                                    <div class="field ui icon input">
+                                        <input type="text" placeholder="Exp Date : dd/mm/yyyy">
+                                        <i class="calendar outline icon"></i>
+                                    </div>
+                                    <div class="inline field">
+                                        <div class="ui checkbox">
+                                            <input type="checkbox">
+                                            <label>Don't know the expiration date.</label>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <input type="text" placeholder="Offer Title">
+                                    </div>
+                                    <!-- <div class="field">
+                                        <div class="ui action input">
+                                            <input placeholder="Offer Image" type="text">
+                                            <button class="ui button">Upload</button>
+                                        </div>
+                                    </div> -->
+                                    <div class="field">
+                                        <textarea placeholder="Offer Description"></textarea>
+                                    </div>
+                                    <div class="inline field">
+                                        <div class="ui checkbox">
+                                            <input type="checkbox">
+                                            <label>I agree to the Terms and Conditions</label>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <button class="fluid ui button btn btn_primary btn_large">Submit</button>
+                                </div>
+                            </div>
+                            <div class="eight wide column">
+                                <h4>Submit Coupon Tips #1</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+
+                                <h4>Note before submit:</h4>
+                                <ol>
+                                    <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</li>
+                                    <li>Eiusmod tempor incididunt ut labore et <a href="#">dolore magna</a> aliqua. Ut enim ad minim veniam, quis nostrud exercitation</li>
+                                    <li>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</li>
+                                </ol>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+                </main><!-- #main -->
+            </div><!-- #primary -->
+
+
+        </div> <!-- /#content-wrap -->
+
+    </div> <!-- END .site-content -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="inner">
+                <div class="stackable doubling ui grid">
+                    <div class="six wide column">
+                        <aside class="widget">
+                            <div class="widget_content">
+                                <p><a href="#"><img src="assets/images/logo.png" alt=""></a></p>
+                                <p>Search the biggest database of coupons on the planet, <br>connect with friends with our coupon apps</p>
+                                <!-- <p>Search the biggest database of coupons on the planet. Connect with friends and see what coupons they’re snipping. Or just browse through featured coupons from your favorite stores.</p> -->
+                                <div class="clearfix">
+                                    <a href="#" class="app-button apple-button clearfix">
+                                        <div class="fleft"><i class="apple icon"></i></div>
+                                        <div class="fright">
+                                            <span class="avail-text">Available for</span>
+                                            <span class="app-service">App Store</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="app-button android-button clearfix">
+                                        <div class="fleft"><i class="android icon"></i></div>
+                                        <div class="fright">
+                                            <span class="avail-text">Available for</span>
+                                            <span class="app-service">Android</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="three wide column">
+                        <aside class="widget widget_nav_menu">
+                            <h4 class="widget_heading">Company</h4>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><a href="#">Our History</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Investor</a></li>
+                                    <li><a href="#">Blog News</a></li>
+                                    <li><a href="#">Affiliate</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="three wide column">
+                        <aside class="widget widget_nav_menu">
+                            <h4 class="widget_heading">Get Help</h4>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><a href="#">Support Forum</a></li>
+                                    <li><a href="#">Press Room</a></li>
+                                    <li><a href="#">How to Use</a></li>
+                                    <li><a href="#">Discounts Guide</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="four wide column">
+                        <aside class="widget">
+                            <h4 class="widget_heading">WP Coupon Premier</h4>
+                            <div class="newsletter-box-wrapper">
+                                <form id="newsletter-box">
+                                    <div class="ui action left icon input">
+                                        <input placeholder="Enter your email ..." type="text">
+                                        <i class="mail outline icon"></i>
+                                        <div class="ui button">Submit</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="newsletter-text">You can opt out of our newsletters at any time. See our <a href="#">privacy policy</a>.</div>
+                                </form>
+                            </div>
+                        </aside>
+                        <aside class="widget">
+                            <div class="footer-social">
+                                <div class="sidebar-social">
+                                    <a class="ui circular icon button"><i class="facebook icon"></i></a>
+                                    <a class="ui circular icon button"><i class="twitter icon"></i></a>
+                                    <a class="ui circular icon button"><i class="linkedin icon"></i></a>
+                                    <a class="ui circular icon button"><i class="google plus icon"></i></a>
+                                    <a class="ui circular icon button"><i class="youtube play icon"></i></a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                <p>Copyright &copy; WP Coupon Inc. All Rights Reserved. Template by <a href="http://www.smooththemes.com">SmoothThemes</a></p>
+                <nav id="footer-nav" class="site-footer-nav">
+                    <ul>
+                        <li><a href="#">Welcome</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">License</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer><!-- END #colophon-->
+
+</div><!-- END #page -->
+
+<!-- Footer JS -->
+<script src="assets/js/config.js"></script>
+
+<script src="assets/js/libs.js"></script>
+<script src="assets/js/libs/semantic.min.js"></script>
+<script src="assets/js/libs/owl.carousel.js"></script>
+<script src="assets/js/global.js"></script>
+
+<script src="assets/ST-User/js/user.js"></script>
+
+</body>
+</html>

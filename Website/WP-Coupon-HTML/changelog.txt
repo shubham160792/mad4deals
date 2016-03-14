@@ -1,0 +1,5 @@
+= 1.0.1 =
+* Fix a menu responsive bug.
+
+= 1.0.0 =
+* Release.

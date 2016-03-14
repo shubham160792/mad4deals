@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Mobile Specific
+    ========================================================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title Tag
+    ========================================================================= -->
+    <title>WP Coupon - An Advanded Coupon Codes and Deals Template</title>
+
+    <!-- Browser Specical Files
+    ========================================================================= -->
+    <!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- Site Favicon
+    ========================================================================= -->
+    <link rel="shortcut icon" href="#" title="Favicon" />
+
+    <!-- WP HEAD
+    ========================================================================= -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="assets/css/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Header JS -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+
+    <!-- PLUGIN CSS -->
+
+    <link rel="stylesheet" href="assets/ST-User/css/style.css">
+
+</head>
+<body>
+<div id="page" class="hfeed site">
+    <header id="masthead" class="ui page site-header">
+        <div class="primary-header">
+            <div class="container">
+                <div class="logo_area fleft">
+                    <a href="index.html" rel="home">
+                        <img src="assets/images/logo.png" alt="Site Logo">
+                    </a>
+                </div>
+                <div class="header-highlight fleft">
+                    <a href="#">
+                        <div class="highlight-icon"><i class="fire icon"></i></div>
+                        <div class="highlight-text">Heating Up</div>
+                    </a>
+                    <a href="#">
+                        <div class="highlight-icon"><i class="shop icon"></i></div>
+                        <div class="highlight-text">Free Shipping</div>
+                    </a>
+                    <a href="#">
+                        <div class="highlight-icon"><i class="tags icon"></i></div>
+                        <div class="highlight-text">Black Friday</div>
+                    </a>
+                </div>
+                <div class="header_right fright">
+                    <form id="header-search">
+                        <div class="header-search-input ui search large action left icon input">
+                            <input class="prompt" placeholder="Search stores for coupons, deals ..." type="text">
+                            <i class="search icon"></i>
+                            <div class="header-search-submit ui button">Search</div>
+                            <div class="results"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="search-sample"><span>Top Searches:</span> <a href="#">Athletefor</a>,  <a href="#">Kmart</a>,  <a href="#">Macy’s</a>,  <a href="#">SmoothThemes</a>,  <a href="#">ThemeForest</a> ...</div>
+                    </form>
+                </div>
+            </div>
+        </div> <!-- END .header -->
+
+        <div class="site-navigation">
+            <div class="container">
+                <nav class="primary-navigation clearfix fleft">
+                    <a href="#content" class="screen-reader-text skip-link">Skip to content</a>
+                    <div id="nav-toggle"><i class="content icon"></i></div>
+                    <ul class="st-menu wpc-menu">
+                        <li class="menu-item-has-children"><a href="#"><i class="unordered list icon"></i> Browse Coupons</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="category_az.html">Browse by Categories</a></li>
+                                <li><a href="store_az.html">Browse by Stores</a></li>
+                                <li><a href="#"># Printable Coupons <i class="print icon"></i></a></li>
+                                <li><a href="#"># Free Shipping </a></li>
+                                <li><a href="#"># Product Deals</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Stores</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="single_store.html">Store Single</a></li>
+                                <li><a href="store_az.html">Stores Index A-Z</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Categories</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="category.html">Category Single</a></li>
+                                <li><a href="category_az.html">Category A-Z Index</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class=""><a href="#"><i class="student icon"></i> Back To School</a></li> -->
+                        <li class="">
+                            <a href="page.html">Pages</a>
+                            <ul>
+                                <li><a href="page.html">Single</a></li>
+                                <li class=""><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="page_submit.html"><i class="edit icon"></i> Submit Coupon</a>
+                            <ul>
+                                <li class=""><a href="page_submit.html">Header Normal</a></li>
+                                <li class=""><a href="page_submit_header_cover.html">Header With Cover</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav> <!-- END .primary-navigation -->
+
+                <div class="nav-user-action fright clearfix">
+                    <ul class="st-menu wpc-menu">
+                        <li class=""><a href="#"><i class="empty star icon"></i> <span class="hide-on-tiny">Saved</span></a>
+                            <div class="menu-box">
+                                <h4 class="menu-box-title">Recently Saved Coupons</h4>
+                                <div class="saved-coupons">
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/udemy.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Up To 60% Off: Shop Electronics Coupons </a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/nature.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Outlet: Up To 70% Off Thousands Of Items</a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/starlight.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Extra 30% off when order online </a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="more-links" href="#">See all your saved coupons <i class="angle right icon"></i></a>
+                            </div>
+                        </li>
+                        <li class=""><a href="#"><i class="empty heart icon"></i> <span class="hide-tiny-screen">Favorites</span></a>
+                            <div class="menu-box">
+                                <h4 class="menu-box-title">Your Favorite Stores</h4>
+                                <div class="ui two column grid">
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/starlight.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/nature.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/udemy.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/vientohotel.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="more-links" href="#">See all your favorite stores <i class="angle right icon"></i></a>
+                            </div>
+                        </li>
+                        <li class="menu-item-has-children"><a href="user_dashboard.html"><i class="power icon"></i> Dashboard</a>
+                            <ul class="sub-menu">
+                                <li><a href="#" class="stuser-login-btn">Sign In Form</a></li>
+                                <li><a href="#" class="st-singup-btn">Register Form</a></li>
+                                <li><a href="user_dashboard.html">Dashboard Page</a></li>
+                                <li><a href="user_edit.html">Account Settings</a></li>
+                                <li><a href="#">Sign Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div> <!-- END .nav_user_action -->
+            </div> <!-- END .container -->
+        </div> <!-- END #primary-navigation -->
+    </header><!-- END #masthead -->
+
+    <div id="content" class="site-content">
+
+        <div id="content-wrap" class="container no-sidebar user-page">
+
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+
+                    <div class="stuser-wrapper st-profile-wrapper" data-ajax-load="false" data-action="profile-template">    <div class="st-profile-wrapper stuser-form-profile">
+
+                        <div class="stuser-form-header">
+                            <div id="st-profile-cover" data-change="false" class="st-profile-cover coppic" data-cover=""></div>
+
+                            <div class="st-profile-meta clear-fix">
+                                <div data-change="false" style="" data-cover="" class="st-profile-avatar coppic"></div>
+
+                                <div class="st-profile-meta-info">
+                                    <span class="st-display-name">Eric Mayer</span>
+                                    <div class="list-meta-info">
+                                        <span class="user-country"><i class="icon world"></i>England</span>
+                                        <span class="user-join-date"><i class="icon calendar"></i>Joined June 22, 2015</span>
+                                    </div>
+                                </div>
+
+                                <div class="st-user-socials">
+                                    <a href="#f" class="ui circular facebook icon button">
+                                        <i class="facebook icon"></i>
+                                    </a>
+                                    <a href="#t" class="ui circular twitter icon button">
+                                        <i class="twitter icon"></i>
+                                    </a>
+                                    <a href="#g" class="ui circular google plus icon button">
+                                        <i class="google plus icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="stuser-form-body clear-fix">
+
+                            <ul class="stuser-form-sidebar">
+                                <li class=""><a class="st-profile-link" href="user_dashboard.html">Dashboard</a></li>
+                                <li class=""><a class="st-profile-link" href="user_saved_coupons.html">Saved Coupons</a></li>
+                                <li class=""><a class="st-profile-link" href="user_favorites_stores.html">Favorites Stores</a></li>
+                                <li class="active"><a class="st-edit-link" href="user_edit.html">Settings</a></li>
+                            </ul><!-- stuser-form-sidebar -->
+
+
+                            <form method="post" action="" class="stuser-form-profile stuser-form form ui">
+
+                                <div class="stuser-form-fields">
+                                    <p class="fieldset stuser_input st-username">
+                                        <label>User Name</label>
+                                        <input type="text" placeholder="Your username" class="input full-width has-padding has-border" readonly="readonly" value="admin">
+                                    </p>
+
+                                    <p class="fieldset stuser_input st-email">
+                                        <label>E-mail</label>
+                                        <input type="email" placeholder="E-mail" class="full-width has-padding has-border" value="info@smooththemes.com" name="st_user_data[user_email]">
+                                        <span class="st-error-message"></span>
+                                    </p>
+
+                                    <p class="fieldset stuser_input st-firstname">
+                                        <label>First Name</label>
+                                        <input type="text" placeholder="First name" class="input full-width has-padding has-border" value="" name="st_user_data[first_name]">
+                                    </p>
+
+                                    <p class="fieldset stuser_input st-lastname">
+                                        <label>Last Name</label>
+                                        <input type="text" placeholder="Last name" class="input full-width has-padding has-border" value="" name="st_user_data[last_name]">
+                                    </p>
+
+                                    <p class="fieldset stuser_input st-input-display-name">
+                                        <label>Display Name</label>
+                                        <input type="text" placeholder="Display name" class="input full-width has-padding has-border" value="Eric Mayer" name="st_user_data[display_name]">
+                                    </p>
+
+                                    <p class="fieldset stuser_input st-website">
+                                        <label>Website</label>
+                                        <input type="text" placeholder="Website" class="input full-width has-padding has-border" value="http://smoththemes.com" name="st_user_data[user_url]">
+                                    </p>
+
+                                    <p class="fieldset stuser_input st-website">
+                                        <label>Country</label>
+                                        <select name="st_user_data[country]">
+                                            <option value="">Select your country</option>
+                                            <optgroup label="Africa">
+                                                <option value="DZ">Algeria</option>
+                                                <option value="AO">Angola</option>
+                                                <option value="BJ">Benin</option>
+                                                <option value="BW">Botswana</option>
+                                                <option value="BF">Burkina Faso</option>
+                                                <option value="BI">Burundi</option>
+                                                <option value="CM">Cameroon</option>
+                                                <option value="CV">Cape Verde</option>
+                                                <option value="CF">Central African Republic</option>
+                                                <option value="TD">Chad</option>
+                                                <option value="KM">Comoros</option>
+                                                <option value="CG">Congo - Brazzaville</option>
+                                                <option value="CD">Congo - Kinshasa</option>
+                                                <option value="CI">Côte d’Ivoire</option>
+                                                <option value="DJ">Djibouti</option>
+                                                <option value="EG">Egypt</option>
+                                                <option value="GQ">Equatorial Guinea</option>
+                                                <option value="ER">Eritrea</option>
+                                                <option value="ET">Ethiopia</option>
+                                                <option value="GA">Gabon</option>
+                                                <option value="GM">Gambia</option>
+                                                <option value="GH">Ghana</option>
+                                                <option value="GN">Guinea</option>
+                                                <option value="GW">Guinea-Bissau</option>
+                                                <option value="KE">Kenya</option>
+                                                <option value="LS">Lesotho</option>
+                                                <option value="LR">Liberia</option>
+                                                <option value="LY">Libya</option>
+                                                <option value="MG">Madagascar</option>
+                                                <option value="MW">Malawi</option>
+                                                <option value="ML">Mali</option>
+                                                <option value="MR">Mauritania</option>
+                                                <option value="MU">Mauritius</option>
+                                                <option value="YT">Mayotte</option>
+                                                <option value="MA">Morocco</option>
+                                                <option value="MZ">Mozambique</option>
+                                                <option value="NA">Namibia</option>
+                                                <option value="NE">Niger</option>
+                                                <option value="NG">Nigeria</option>
+                                                <option value="RW">Rwanda</option>
+                                                <option value="RE">Réunion</option>
+                                                <option value="SH">Saint Helena</option>
+                                                <option value="SN">Senegal</option>
+                                                <option value="SC">Seychelles</option>
+                                                <option value="SL">Sierra Leone</option>
+                                                <option value="SO">Somalia</option>
+                                                <option value="ZA">South Africa</option>
+                                                <option value="SD">Sudan</option>
+                                                <option value="SZ">Swaziland</option>
+                                                <option value="ST">São Tomé and Príncipe</option>
+                                                <option value="TZ">Tanzania</option>
+                                                <option value="TG">Togo</option>
+                                                <option value="TN">Tunisia</option>
+                                                <option value="UG">Uganda</option>
+                                                <option value="EH">Western Sahara</option>
+                                                <option value="ZM">Zambia</option>
+                                                <option value="ZW">Zimbabwe</option>
+                                            </optgroup>
+                                            <optgroup label="Americas">
+                                                <option value="AI">Anguilla</option>
+                                                <option value="AG">Antigua and Barbuda</option>
+                                                <option value="AR">Argentina</option>
+                                                <option value="AW">Aruba</option>
+                                                <option value="BS">Bahamas</option>
+                                                <option value="BB">Barbados</option>
+                                                <option value="BZ">Belize</option>
+                                                <option value="BM">Bermuda</option>
+                                                <option value="BO">Bolivia</option>
+                                                <option value="BR">Brazil</option>
+                                                <option value="VG">British Virgin Islands</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="KY">Cayman Islands</option>
+                                                <option value="CL">Chile</option>
+                                                <option value="CO">Colombia</option>
+                                                <option value="CR">Costa Rica</option>
+                                                <option value="CU">Cuba</option>
+                                                <option value="DM">Dominica</option>
+                                                <option value="DO">Dominican Republic</option>
+                                                <option value="EC">Ecuador</option>
+                                                <option value="SV">El Salvador</option>
+                                                <option value="FK">Falkland Islands</option>
+                                                <option value="GF">French Guiana</option>
+                                                <option value="GL">Greenland</option>
+                                                <option value="GD">Grenada</option>
+                                                <option value="GP">Guadeloupe</option>
+                                                <option value="GT">Guatemala</option>
+                                                <option value="GY">Guyana</option>
+                                                <option value="HT">Haiti</option>
+                                                <option value="HN">Honduras</option>
+                                                <option value="JM">Jamaica</option>
+                                                <option value="MQ">Martinique</option>
+                                                <option value="MX">Mexico</option>
+                                                <option value="MS">Montserrat</option>
+                                                <option value="AN">Netherlands Antilles</option>
+                                                <option value="NI">Nicaragua</option>
+                                                <option value="PA">Panama</option>
+                                                <option value="PY">Paraguay</option>
+                                                <option value="PE">Peru</option>
+                                                <option value="PR">Puerto Rico</option>
+                                                <option value="BL">Saint Barthélemy</option>
+                                                <option value="KN">Saint Kitts and Nevis</option>
+                                                <option value="LC">Saint Lucia</option>
+                                                <option value="MF">Saint Martin</option>
+                                                <option value="PM">Saint Pierre and Miquelon</option>
+                                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                                <option value="SR">Suriname</option>
+                                                <option value="TT">Trinidad and Tobago</option>
+                                                <option value="TC">Turks and Caicos Islands</option>
+                                                <option value="VI">U.S. Virgin Islands</option>
+                                                <option value="US">United States</option>
+                                                <option value="UY">Uruguay</option>
+                                                <option value="VE">Venezuela</option>
+                                            </optgroup>
+                                            <optgroup label="Asia">
+                                                <option value="AF">Afghanistan</option>
+                                                <option value="AM">Armenia</option>
+                                                <option value="AZ">Azerbaijan</option>
+                                                <option value="BH">Bahrain</option>
+                                                <option value="BD">Bangladesh</option>
+                                                <option value="BT">Bhutan</option>
+                                                <option value="BN">Brunei</option>
+                                                <option value="KH">Cambodia</option>
+                                                <option value="CN">China</option>
+                                                <option value="CY">Cyprus</option>
+                                                <option value="GE">Georgia</option>
+                                                <option value="HK">Hong Kong SAR China</option>
+                                                <option value="IN">India</option>
+                                                <option value="ID">Indonesia</option>
+                                                <option value="IR">Iran</option>
+                                                <option value="IQ">Iraq</option>
+                                                <option value="IL">Israel</option>
+                                                <option value="JP">Japan</option>
+                                                <option value="JO">Jordan</option>
+                                                <option value="KZ">Kazakhstan</option>
+                                                <option value="KW">Kuwait</option>
+                                                <option value="KG">Kyrgyzstan</option>
+                                                <option value="LA">Laos</option>
+                                                <option value="LB">Lebanon</option>
+                                                <option value="MO">Macau SAR China</option>
+                                                <option value="MY">Malaysia</option>
+                                                <option value="MV">Maldives</option>
+                                                <option value="MN">Mongolia</option>
+                                                <option value="MM">Myanmar [Burma]</option>
+                                                <option value="NP">Nepal</option>
+                                                <option value="NT">Neutral Zone</option>
+                                                <option value="KP">North Korea</option>
+                                                <option value="OM">Oman</option>
+                                                <option value="PK">Pakistan</option>
+                                                <option value="PS">Palestinian Territories</option>
+                                                <option value="YD">People's Democratic Republic of Yemen</option>
+                                                <option value="PH">Philippines</option>
+                                                <option value="QA">Qatar</option>
+                                                <option value="SA">Saudi Arabia</option>
+                                                <option value="SG">Singapore</option>
+                                                <option value="KR">South Korea</option>
+                                                <option value="LK">Sri Lanka</option>
+                                                <option value="SY">Syria</option>
+                                                <option value="TW">Taiwan</option>
+                                                <option value="TJ">Tajikistan</option>
+                                                <option value="TH">Thailand</option>
+                                                <option value="TL">Timor-Leste</option>
+                                                <option value="TR">Turkey</option>
+                                                <option value="TM">Turkmenistan</option>
+                                                <option value="AE">United Arab Emirates</option>
+                                                <option value="UZ">Uzbekistan</option>
+                                                <option value="VN">Vietnam</option>
+                                                <option value="YE">Yemen</option>
+                                            </optgroup>
+                                            <optgroup label="Europe">
+                                                <option value="AL">Albania</option>
+                                                <option value="AD">Andorra</option>
+                                                <option value="AT">Austria</option>
+                                                <option value="BY">Belarus</option>
+                                                <option value="BE">Belgium</option>
+                                                <option value="BA">Bosnia and Herzegovina</option>
+                                                <option value="BG">Bulgaria</option>
+                                                <option value="HR">Croatia</option>
+                                                <option value="CY">Cyprus</option>
+                                                <option value="CZ">Czech Republic</option>
+                                                <option value="DK">Denmark</option>
+                                                <option value="DD">East Germany</option>
+                                                <option value="EE">Estonia</option>
+                                                <option value="FO">Faroe Islands</option>
+                                                <option value="FI">Finland</option>
+                                                <option value="FR">France</option>
+                                                <option value="DE">Germany</option>
+                                                <option value="GI">Gibraltar</option>
+                                                <option value="GR">Greece</option>
+                                                <option value="GG">Guernsey</option>
+                                                <option value="HU">Hungary</option>
+                                                <option value="IS">Iceland</option>
+                                                <option value="IE">Ireland</option>
+                                                <option value="IM">Isle of Man</option>
+                                                <option value="IT">Italy</option>
+                                                <option value="JE">Jersey</option>
+                                                <option value="LV">Latvia</option>
+                                                <option value="LI">Liechtenstein</option>
+                                                <option value="LT">Lithuania</option>
+                                                <option value="LU">Luxembourg</option>
+                                                <option value="MK">Macedonia</option>
+                                                <option value="MT">Malta</option>
+                                                <option value="FX">Metropolitan France</option>
+                                                <option value="MD">Moldova</option>
+                                                <option value="MC">Monaco</option>
+                                                <option value="ME">Montenegro</option>
+                                                <option value="NL">Netherlands</option>
+                                                <option value="NO">Norway</option>
+                                                <option value="PL">Poland</option>
+                                                <option value="PT">Portugal</option>
+                                                <option value="RO">Romania</option>
+                                                <option value="RU">Russia</option>
+                                                <option value="SM">San Marino</option>
+                                                <option value="RS">Serbia</option>
+                                                <option value="CS">Serbia and Montenegro</option>
+                                                <option value="SK">Slovakia</option>
+                                                <option value="SI">Slovenia</option>
+                                                <option value="ES">Spain</option>
+                                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                                <option value="SE">Sweden</option>
+                                                <option value="CH">Switzerland</option>
+                                                <option value="UA">Ukraine</option>
+                                                <option value="SU">Union of Soviet Socialist Republics</option>
+                                                <option value="GB">United Kingdom</option>
+                                                <option value="VA">Vatican City</option>
+                                                <option value="AX">Åland Islands</option>
+                                            </optgroup>
+                                            <optgroup label="Oceania">
+                                                <option value="AS">American Samoa</option>
+                                                <option value="AQ">Antarctica</option>
+                                                <option value="AU">Australia</option>
+                                                <option value="BV">Bouvet Island</option>
+                                                <option value="IO">British Indian Ocean Territory</option>
+                                                <option value="CX">Christmas Island</option>
+                                                <option value="CC">Cocos [Keeling] Islands</option>
+                                                <option value="CK">Cook Islands</option>
+                                                <option value="FJ">Fiji</option>
+                                                <option value="PF">French Polynesia</option>
+                                                <option value="TF">French Southern Territories</option>
+                                                <option value="GU">Guam</option>
+                                                <option value="HM">Heard Island and McDonald Islands</option>
+                                                <option value="KI">Kiribati</option>
+                                                <option value="MH">Marshall Islands</option>
+                                                <option value="FM">Micronesia</option>
+                                                <option value="NR">Nauru</option>
+                                                <option value="NC">New Caledonia</option>
+                                                <option value="NZ">New Zealand</option>
+                                                <option value="NU">Niue</option>
+                                                <option value="NF">Norfolk Island</option>
+                                                <option value="MP">Northern Mariana Islands</option>
+                                                <option value="PW">Palau</option>
+                                                <option value="PG">Papua New Guinea</option>
+                                                <option value="PN">Pitcairn Islands</option>
+                                                <option value="WS">Samoa</option>
+                                                <option value="SB">Solomon Islands</option>
+                                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                <option value="TK">Tokelau</option>
+                                                <option value="TO">Tonga</option>
+                                                <option value="TV">Tuvalu</option>
+                                                <option value="UM">U.S. Minor Outlying Islands</option>
+                                                <option value="VU">Vanuatu</option>
+                                                <option value="WF">Wallis and Futuna</option>
+                                            </optgroup>
+                                        </select>
+                                    </p>
+
+
+                                    <p class="fieldset stuser_input st-pwd pass1">
+                                        <label>New Password</label>
+                                        <input type="password" placeholder="New Password" class="input full-width has-padding has-border" autocomplete="off" name="st_user_data[user_pass]">
+                                        <a class="hide-password" href="#0">Show</a>
+                                        <span class="st-error-message"></span>
+                                    </p>
+                                    <p class="fieldset stuser_input st-pwd pass2">
+                                        <label>Comfirm New Password</label>
+                                        <input type="password" placeholder="Confirm New Password" class="input full-width has-padding has-border" autocomplete="off" name="st_user_pwd2">
+                                        <a class="hide-password" href="#0">Show</a>
+                                        <span class="st-error-message"></span>
+                                    </p>
+                                    <p class="fieldset stuser_input st-website">
+                                        <label>Bio</label>
+                                        <textarea name="st_user_data[description]" class="full-width"></textarea>
+                                    </p>
+                                    <p class="fieldset stuser_input st-firstname">
+                                        <label>Facebook URL</label>
+                                        <input type="text" placeholder="Facebook URL" class="input full-width has-padding has-border" value="#f" name="st_user_data[facebook]">
+                                    </p>
+                                    <p class="fieldset stuser_input st-firstname">
+                                        <label>Twitter URL</label>
+                                        <input type="text" placeholder="Twitter URL" class="input full-width has-padding has-border" value="#t" name="st_user_data[twitter]">
+                                    </p>
+                                    <p class="fieldset stuser_input st-firstname">
+                                        <label>Google+ URL</label>
+                                        <input type="text" placeholder="Google+ URL" class="input full-width has-padding has-border" value="#g" name="st_user_data[google]">
+                                    </p>
+                                    <p class="fieldset">
+                                        <input type="submit" value="Update Profile" data-loading-text="Loading..." class="profile-submit button btn">
+                                    </p>
+                                </div>
+                            </form><!-- /.stuser-form-profile -->
+
+
+                        </div>
+                    </div>
+
+                    </div>
+
+                </main><!-- #main -->
+            </div><!-- #primary -->
+
+        </div> <!-- /#content-wrap -->
+
+    </div> <!-- END .site-content -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="inner">
+                <div class="stackable doubling ui grid">
+                    <div class="six wide column">
+                        <aside class="widget">
+                            <div class="widget_content">
+                                <p><a href="#"><img src="assets/images/logo.png" alt=""></a></p>
+                                <p>Search the biggest database of coupons on the planet, <br>connect with friends with our coupon apps</p>
+                                <!-- <p>Search the biggest database of coupons on the planet. Connect with friends and see what coupons they’re snipping. Or just browse through featured coupons from your favorite stores.</p> -->
+                                <div class="clearfix">
+                                    <a href="#" class="app-button apple-button clearfix">
+                                        <div class="fleft"><i class="apple icon"></i></div>
+                                        <div class="fright">
+                                            <span class="avail-text">Available for</span>
+                                            <span class="app-service">App Store</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="app-button android-button clearfix">
+                                        <div class="fleft"><i class="android icon"></i></div>
+                                        <div class="fright">
+                                            <span class="avail-text">Available for</span>
+                                            <span class="app-service">Android</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="three wide column">
+                        <aside class="widget widget_nav_menu">
+                            <h4 class="widget_heading">Company</h4>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><a href="#">Our History</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Investor</a></li>
+                                    <li><a href="#">Blog News</a></li>
+                                    <li><a href="#">Affiliate</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="three wide column">
+                        <aside class="widget widget_nav_menu">
+                            <h4 class="widget_heading">Get Help</h4>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><a href="#">Support Forum</a></li>
+                                    <li><a href="#">Press Room</a></li>
+                                    <li><a href="#">How to Use</a></li>
+                                    <li><a href="#">Discounts Guide</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="four wide column">
+                        <aside class="widget">
+                            <h4 class="widget_heading">WP Coupon Premier</h4>
+                            <div class="newsletter-box-wrapper">
+                                <form id="newsletter-box">
+                                    <div class="ui action left icon input">
+                                        <input placeholder="Enter your email ..." type="text">
+                                        <i class="mail outline icon"></i>
+                                        <div class="ui button">Submit</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="newsletter-text">You can opt out of our newsletters at any time. See our <a href="#">privacy policy</a>.</div>
+                                </form>
+                            </div>
+                        </aside>
+                        <aside class="widget">
+                            <div class="footer-social">
+                                <div class="sidebar-social">
+                                    <a class="ui circular icon button"><i class="facebook icon"></i></a>
+                                    <a class="ui circular icon button"><i class="twitter icon"></i></a>
+                                    <a class="ui circular icon button"><i class="linkedin icon"></i></a>
+                                    <a class="ui circular icon button"><i class="google plus icon"></i></a>
+                                    <a class="ui circular icon button"><i class="youtube play icon"></i></a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                <p>Copyright &copy; WP Coupon Inc. All Rights Reserved. Template by <a href="http://www.smooththemes.com">SmoothThemes</a></p>
+                <nav id="footer-nav" class="site-footer-nav">
+                    <ul>
+                        <li><a href="#">Welcome</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">License</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer><!-- END #colophon-->
+
+</div><!-- END #page -->
+
+<!-- Footer JS -->
+<script src="assets/js/config.js"></script>
+
+<script src="assets/js/libs.js"></script>
+<script src="assets/js/libs/semantic.min.js"></script>
+<script src="assets/js/libs/owl.carousel.js"></script>
+<script src="assets/js/global.js"></script>
+
+<script src="assets/ST-User/js/user.js"></script>
+
+</body>
+</html>

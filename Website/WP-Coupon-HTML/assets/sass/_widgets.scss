@@ -1,0 +1,70 @@
+/* Newsletters
+------------------------------*/
+.newsletter-box-wrapper.shadow-box {
+	padding: 20px;
+	.newsletter-text {
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 13px;
+	}
+	input {
+		border-color: #eeeeee;
+		@include border-radius(2px);
+	}
+	.input .ui.button {
+		background: $primary;
+		color: #FFFFFF;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+	}
+	.sidebar-social {
+		display: inline-block;
+		margin-top: 15px;
+		a {
+			margin-bottom: 5px;
+			i {
+				color: #FFFFFF;
+			}
+			&:hover {
+				background: $primary;
+			}
+		}
+	}
+}
+
+/* Popular Stores
+------------------------------*/
+.widget_popular_stores {
+	.ui.grid {
+		margin: -10px;
+	}
+	.ui.grid > .column:not(.row) {
+		padding: 10px;
+	}
+	.store-thumb {
+		line-height: 68px;
+	}
+}
+
+/* WP Widget: Calendar
+------------------------------*/
+.widget_calendar {
+	.widget-title {
+		display: none;
+	}
+	#wp-calendar caption {
+		font-weight: bold;
+		font-size: 15px ;
+		margin-bottom: 20px;
+		font-weight: 500;
+		margin-top: -4px;
+	}
+}
+.site-footer {
+	#wp-calendar caption {
+		text-align: left;
+		text-transform: uppercase;
+	}
+}

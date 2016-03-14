@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Mobile Specific
+    ========================================================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title Tag
+    ========================================================================= -->
+    <title>WP Coupon - An Advanded Coupon Codes and Deals Template</title>
+
+    <!-- Browser Specical Files
+    ========================================================================= -->
+    <!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- Site Favicon
+    ========================================================================= -->
+    <link rel="shortcut icon" href="#" title="Favicon" />
+
+    <!-- WP HEAD
+    ========================================================================= -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="assets/css/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Header JS -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+
+    <!-- PLUGIN CSS -->
+
+    <link rel="stylesheet" href="assets/ST-User/css/style.css">
+
+</head>
+<body>
+<div id="page" class="hfeed site">
+    <header id="masthead" class="ui page site-header">
+        <div class="primary-header">
+            <div class="container">
+                <div class="logo_area fleft">
+                    <a href="index.html" rel="home">
+                        <img src="assets/images/logo.png" alt="Site Logo">
+                    </a>
+                </div>
+                <div class="header-highlight fleft">
+                    <a href="#">
+                        <div class="highlight-icon"><i class="fire icon"></i></div>
+                        <div class="highlight-text">Heating Up</div>
+                    </a>
+                    <a href="#">
+                        <div class="highlight-icon"><i class="shop icon"></i></div>
+                        <div class="highlight-text">Free Shipping</div>
+                    </a>
+                    <a href="#">
+                        <div class="highlight-icon"><i class="tags icon"></i></div>
+                        <div class="highlight-text">Black Friday</div>
+                    </a>
+                </div>
+                <div class="header_right fright">
+                    <form id="header-search">
+                        <div class="header-search-input ui search large action left icon input">
+                            <input class="prompt" placeholder="Search stores for coupons, deals ..." type="text">
+                            <i class="search icon"></i>
+                            <div class="header-search-submit ui button">Search</div>
+                            <div class="results"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="search-sample"><span>Top Searches:</span> <a href="#">Athletefor</a>,  <a href="#">Kmart</a>,  <a href="#">Macy’s</a>,  <a href="#">SmoothThemes</a>,  <a href="#">ThemeForest</a> ...</div>
+                    </form>
+                </div>
+            </div>
+        </div> <!-- END .header -->
+
+        <div class="site-navigation">
+            <div class="container">
+                <nav class="primary-navigation clearfix fleft">
+                    <a href="#content" class="screen-reader-text skip-link">Skip to content</a>
+                    <div id="nav-toggle"><i class="content icon"></i></div>
+                    <ul class="st-menu wpc-menu">
+                        <li class="menu-item-has-children"><a href="#"><i class="unordered list icon"></i> Browse Coupons</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="category_az.html">Browse by Categories</a></li>
+                                <li><a href="store_az.html">Browse by Stores</a></li>
+                                <li><a href="#"># Printable Coupons <i class="print icon"></i></a></li>
+                                <li><a href="#"># Free Shipping </a></li>
+                                <li><a href="#"># Product Deals</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Stores</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="single_store.html">Store Single</a></li>
+                                <li><a href="store_az.html">Stores Index A-Z</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Categories</a>
+                            <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
+                            <ul class="sub-menu">
+                                <li><a href="category.html">Category Single</a></li>
+                                <li><a href="category_az.html">Category A-Z Index</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class=""><a href="#"><i class="student icon"></i> Back To School</a></li> -->
+                        <li class="">
+                            <a href="page.html">Pages</a>
+                            <ul>
+                                <li><a href="page.html">Single</a></li>
+                                <li class=""><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="page_submit.html"><i class="edit icon"></i> Submit Coupon</a>
+                            <ul>
+                                <li class=""><a href="page_submit.html">Header Normal</a></li>
+                                <li class=""><a href="page_submit_header_cover.html">Header With Cover</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav> <!-- END .primary-navigation -->
+
+                <div class="nav-user-action fright clearfix">
+                    <ul class="st-menu wpc-menu">
+                        <li class=""><a href="#"><i class="empty star icon"></i> <span class="hide-on-tiny">Saved</span></a>
+                            <div class="menu-box">
+                                <h4 class="menu-box-title">Recently Saved Coupons</h4>
+                                <div class="saved-coupons">
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/udemy.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Up To 60% Off: Shop Electronics Coupons </a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/nature.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Outlet: Up To 70% Off Thousands Of Items</a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                    <div class="saved-coupon clearfix">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="">
+                                                <img src="thumb/stores/starlight.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="coupon-text">
+                                            <a href="single_store.html">Extra 30% off when order online </a>
+                                            <span class="exp-text">Expires 6/25/2016 </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="more-links" href="#">See all your saved coupons <i class="angle right icon"></i></a>
+                            </div>
+                        </li>
+                        <li class=""><a href="#"><i class="empty heart icon"></i> <span class="hide-tiny-screen">Favorites</span></a>
+                            <div class="menu-box">
+                                <h4 class="menu-box-title">Your Favorite Stores</h4>
+                                <div class="ui two column grid">
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/starlight.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/nature.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/udemy.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="store-thumb">
+                                            <a href="single_store.html" class="ui image middle aligned">
+                                                <img src="thumb/stores/vientohotel.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="more-links" href="#">See all your favorite stores <i class="angle right icon"></i></a>
+                            </div>
+                        </li>
+                        <li class="menu-item-has-children"><a href="user_dashboard.html"><i class="power icon"></i> Dashboard</a>
+                            <ul class="sub-menu">
+                                <li><a href="#" class="stuser-login-btn">Sign In Form</a></li>
+                                <li><a href="#" class="st-singup-btn">Register Form</a></li>
+                                <li><a href="user_dashboard.html">Dashboard Page</a></li>
+                                <li><a href="user_edit.html">Account Settings</a></li>
+                                <li><a href="#">Sign Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div> <!-- END .nav_user_action -->
+            </div> <!-- END .container -->
+        </div> <!-- END #primary-navigation -->
+    </header><!-- END #masthead -->
+
+    <div id="content" class="site-content">
+        <section class="page-header">
+            <div class="container">
+
+                <div class="inner">
+                    <div class="inner-content clearfix">
+                        <div class="header-content">
+                            <h1>Single Page</h1>
+                        </div>
+                        <div class="ui small breadcrumb">
+                            <a class="section">Home</a>
+                            <i class="right angle right icon divider"></i>
+                            <a class="section">Pages</a>
+                            <i class="right angle right icon divider"></i>
+                            <div class="active section">Page has sidebar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="content-wrap" class="container right-sidebar">
+
+            <div id="secondary" class="widget-area sidebar">
+                <aside class="widget widget_newsletter">
+                    <h4 class="widget-title">Don't miss another great deal!</h4>
+                    <div class="newsletter-box-wrapper shadow-box">
+                        <form id="newsletter-box-widget">
+                            <div class="ui action left icon input">
+                                <input placeholder="Enter your email ..." type="text">
+                                <i class="mail outline icon"></i>
+                                <div class="ui button">Subscribe</div>
+                            </div>
+                            <!-- <div class="ui fluid icon input">
+                                <input type="text" placeholder="Enter your email ...">
+                                <i class="mail outline icon"></i>
+                            </div> -->
+                            <div class="clear"></div>
+                            <div class="newsletter-text">You can opt out of our newsletters at any time. See our <a href="#">privacy policy</a>.</div>
+                            <div class="sidebar-social">
+                                <a class="ui circular icon button"><i class="facebook icon"></i></a>
+                                <a class="ui circular icon button"><i class="twitter icon"></i></a>
+                                <a class="ui circular icon button"><i class="linkedin icon"></i></a>
+                                <a class="ui circular icon button"><i class="google plus icon"></i></a>
+                                <a class="ui circular icon button"><i class="flickr icon"></i></a>
+                                <a class="ui circular icon button"><i class="youtube play icon"></i></a>
+                            </div>
+                        </form>
+                    </div>
+                </aside>
+                <aside class="widget widget_popular_stores">
+                    <h4 class="widget-title">Popular Stores</h4>
+                    <div class="widget-content shadow-box">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <div class="store-thumb">
+                                    <a href="single_store.html" class="ui image middle aligned">
+                                        <img src="thumb/stores/religion.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="store-thumb">
+                                    <a href="single_store.html" class="ui image middle aligned">
+                                        <img src="thumb/stores/nature.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="store-thumb">
+                                    <a href="single_store.html" class="ui image middle aligned">
+                                        <img src="thumb/stores/starlight.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="store-thumb">
+                                    <a href="single_store.html" class="ui image middle aligned">
+                                        <img src="thumb/stores/vientohotel.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="store-thumb">
+                                    <a href="single_store.html" class="ui image middle aligned">
+                                        <img src="thumb/stores/athleteform.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="store-thumb">
+                                    <a href="single_store.html" class="ui image middle aligned">
+                                        <img src="thumb/stores/scribble.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="widget widget_categories">
+                    <h4 class="widget-title">Popular Categories</h4>
+                    <div class="widget-content shadow-box">
+                        <ul>
+                            <li><a href="category.html">Apparel</a></li>
+                            <li><a href="category.html">Accessories</a></li>
+                            <li><a href="category.html">Entertainment </a></li>
+                            <li><a href="category.html">Automotive</a></li>
+
+                            <li><a href="category.html">Personal Care</a></li>
+                            <li><a href="category.html">Books</a></li>
+                            <li><a href="category.html">Beverage</a></li>
+                            <li><a href="category.html">Business</a></li>
+
+                            <!-- <li><a href="#">Foods</a></li>
+                            <li><a href="#">Groceries</a></li> -->
+                        </ul>
+                    </div>
+                </aside>
+                <aside class="widget widget_text">
+                    <div class="ads-area">
+                        <div class="ui horizontal divider">Advertisement</div>
+                        <a href="#"><img src="assets/images/300.png" alt=""></a>
+                    </div>
+                </aside>
+            </div><!-- #secondary -->
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+
+                    <div class="post-entry shadow-box content-box post-1178 post type-post status-publish format-standard hentry category-markup tag-content-2 tag-css tag-formatting-2 tag-html tag-markup-2">
+
+                        <div class="post-content">
+                            <h2>Headings</h2>
+                            <h1>Header one</h1>
+                            <h2>Header two</h2>
+                            <h3>Header three</h3>
+                            <h4>Header four</h4>
+                            <h5>Header five</h5>
+                            <h6>Header six</h6>
+                            <h2>Blockquotes</h2>
+                            <p>Single line blockquote:</p>
+                            <blockquote><p>Stay hungry. Stay foolish.</p></blockquote>
+                            <p>Multi line blockquote with a cite reference:</p>
+                            <blockquote><p>People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things. </p></blockquote>
+                            <p><cite>Steve Jobs</cite> &ndash; Apple Worldwide Developers’ Conference, 1997</p>
+                            <h2>Tables</h2>
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>Employee</th>
+                                    <th>Salary</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th><a href="http://example.org/">John Doe</a></th>
+                                    <td>$1</td>
+                                    <td>Because that’s all Steve Jobs needed for a salary.</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="http://example.org/">Jane Doe</a></th>
+                                    <td>$100K</td>
+                                    <td>For all the blogging she does.</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="http://example.org/">Fred Bloggs</a></th>
+                                    <td>$100M</td>
+                                    <td>Pictures are worth a thousand words, right? So Jane x 1,000.</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="http://example.org/">Jane Bloggs</a></th>
+                                    <td>$100B</td>
+                                    <td>With hair like that?! Enough said…</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <h2>Definition Lists</h2>
+                            <dl>
+                                <dt>Definition List Title</dt>
+                                <dd>Definition list division.</dd>
+                                <dt>Startup</dt>
+                                <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+                                <dt>#dowork</dt>
+                                <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.</dd>
+                                <dt>Do It Live</dt>
+                                <dd>I’ll let Bill O’Reilly will <a href="https://www.youtube.com/watch?v=O_HyZ5aW76c" title="We'll Do It Live">explain</a> this one.</dd>
+                            </dl>
+                            <h2>Unordered Lists (Nested)</h2>
+                            <ul>
+                                <li>List item one
+                                    <ul>
+                                        <li>List item one
+                                            <ul>
+                                                <li>List item one</li>
+                                                <li>List item two</li>
+                                                <li>List item three</li>
+                                                <li>List item four</li>
+                                            </ul>
+                                        </li>
+                                        <li>List item two</li>
+                                        <li>List item three</li>
+                                        <li>List item four</li>
+                                    </ul>
+                                </li>
+                                <li>List item two</li>
+                                <li>List item three</li>
+                                <li>List item four</li>
+                            </ul>
+                            <h2>Ordered List (Nested)</h2>
+                            <ol>
+                                <li>List item one
+                                    <ol>
+                                        <li>List item one
+                                            <ol>
+                                                <li>List item one</li>
+                                                <li>List item two</li>
+                                                <li>List item three</li>
+                                                <li>List item four</li>
+                                            </ol>
+                                        </li>
+                                        <li>List item two</li>
+                                        <li>List item three</li>
+                                        <li>List item four</li>
+                                    </ol>
+                                </li>
+                                <li>List item two</li>
+                                <li>List item three</li>
+                                <li>List item four</li>
+                            </ol>
+                            <h2>HTML Tags</h2>
+                            <p>These supported tags come from the WordPress.com code <a href="http://en.support.wordpress.com/code/" title="Code">FAQ</a>.</p>
+                            <p><strong>Address Tag</strong></p>
+                            <address>1 Infinite Loop<br>
+                                Cupertino, CA 95014<br>
+                                United States</address>
+                            <p><strong>Anchor Tag (aka. Link)</strong></p>
+                            <p>This is an example of a <a href="http://apple.com" title="Apple">link</a>.</p>
+                            <p><strong>Abbreviation Tag</strong></p>
+                            <p>The abbreviation <abbr title="Seriously">srsly</abbr> stands for “seriously”.</p>
+                            <p><strong>Acronym Tag (<em>deprecated in HTML5</em>)</strong></p>
+                            <p>The acronym <acronym title="For The Win">ftw</acronym> stands for “for the win”.</p>
+                            <p><strong>Big Tag&nbsp;<strong>(<em>deprecated in HTML5</em>)</strong></strong></p>
+                            <p>These tests are a <big>big</big> deal, but this tag is no longer supported in HTML5.</p>
+                            <p><strong>Cite Tag</strong></p>
+                            <p>“Code is poetry.” &mdash;<cite>Automattic</cite></p>
+                            <p><strong>Code Tag</strong></p>
+                            <p>You will learn later on in these tests that <code>word-wrap: break-word;</code> will be your best friend.</p>
+                            <p><strong>Delete Tag</strong></p>
+                            <p>This tag will let you <del>strikeout text</del>, but this tag is no longer supported in HTML5 (use the <code>&lt;strike&gt;</code> instead).</p>
+                            <p><strong>Emphasize Tag</strong></p>
+                            <p>The emphasize tag should <em>italicize</em> text.</p>
+                            <p><strong>Insert Tag</strong></p>
+                            <p>This tag should denote <ins>inserted</ins> text.</p>
+                            <p><strong>Keyboard Tag</strong></p>
+                            <p>This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code>&lt;code&gt;</code> tag.</p>
+                            <p><strong>Preformatted Tag</strong></p>
+                            <p>This tag styles large blocks of code.</p>
+                            <p><strong>Quote Tag</strong></p>
+                            <p><q>Developers, developers, developers…</q> &ndash;Steve Ballmer</p>
+                            <p><strong>Strike Tag&nbsp;<strong>(<em>deprecated in HTML5</em>)</strong></strong></p>
+                            <p>This tag shows <span style="text-decoration:line-through;">strike-through text</span></p>
+                            <p><strong>Strong Tag</strong></p>
+                            <p>This tag shows <strong>bold<strong> text.</strong></strong></p>
+                            <p><strong>Subscript Tag</strong></p>
+                            <p>Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.</p>
+                            <p><strong>Superscript Tag</strong></p>
+                            <p>Still sticking with science and Isaac Newton’s E = MC<sup>2</sup>, which should lift the 2 up.</p>
+                            <p><strong>Teletype Tag&nbsp;<strong>(<em>deprecated in HTML5</em>)</strong></strong></p>
+                            <p>This rarely used tag emulates <tt>teletype text</tt>, which is usually styled like the <code>&lt;code&gt;</code> tag.</p>
+                            <p><strong>Variable Tag</strong></p>
+                            <p>This allows you to denote <var>variables</var>.</p>
+                        </div>
+
+                    </div>
+
+                </main><!-- #main -->
+            </div><!-- #primary -->
+
+
+        </div> <!-- /#content-wrap -->
+
+    </div> <!-- END .site-content -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="inner">
+                <div class="stackable doubling ui grid">
+                    <div class="six wide column">
+                        <aside class="widget">
+                            <div class="widget_content">
+                                <p><a href="#"><img src="assets/images/logo.png" alt=""></a></p>
+                                <p>Search the biggest database of coupons on the planet, <br>connect with friends with our coupon apps</p>
+                                <!-- <p>Search the biggest database of coupons on the planet. Connect with friends and see what coupons they’re snipping. Or just browse through featured coupons from your favorite stores.</p> -->
+                                <div class="clearfix">
+                                    <a href="#" class="app-button apple-button clearfix">
+                                        <div class="fleft"><i class="apple icon"></i></div>
+                                        <div class="fright">
+                                            <span class="avail-text">Available for</span>
+                                            <span class="app-service">App Store</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="app-button android-button clearfix">
+                                        <div class="fleft"><i class="android icon"></i></div>
+                                        <div class="fright">
+                                            <span class="avail-text">Available for</span>
+                                            <span class="app-service">Android</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="three wide column">
+                        <aside class="widget widget_nav_menu">
+                            <h4 class="widget_heading">Company</h4>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><a href="#">Our History</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Investor</a></li>
+                                    <li><a href="#">Blog News</a></li>
+                                    <li><a href="#">Affiliate</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="three wide column">
+                        <aside class="widget widget_nav_menu">
+                            <h4 class="widget_heading">Get Help</h4>
+                            <div class="widget_content">
+                                <ul>
+                                    <li><a href="#">Support Forum</a></li>
+                                    <li><a href="#">Press Room</a></li>
+                                    <li><a href="#">How to Use</a></li>
+                                    <li><a href="#">Discounts Guide</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="four wide column">
+                        <aside class="widget">
+                            <h4 class="widget_heading">WP Coupon Premier</h4>
+                            <div class="newsletter-box-wrapper">
+                                <form id="newsletter-box">
+                                    <div class="ui action left icon input">
+                                        <input placeholder="Enter your email ..." type="text">
+                                        <i class="mail outline icon"></i>
+                                        <div class="ui button">Submit</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="newsletter-text">You can opt out of our newsletters at any time. See our <a href="#">privacy policy</a>.</div>
+                                </form>
+                            </div>
+                        </aside>
+                        <aside class="widget">
+                            <div class="footer-social">
+                                <div class="sidebar-social">
+                                    <a class="ui circular icon button"><i class="facebook icon"></i></a>
+                                    <a class="ui circular icon button"><i class="twitter icon"></i></a>
+                                    <a class="ui circular icon button"><i class="linkedin icon"></i></a>
+                                    <a class="ui circular icon button"><i class="google plus icon"></i></a>
+                                    <a class="ui circular icon button"><i class="youtube play icon"></i></a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                <p>Copyright &copy; WP Coupon Inc. All Rights Reserved. Template by <a href="http://www.smooththemes.com">SmoothThemes</a></p>
+                <nav id="footer-nav" class="site-footer-nav">
+                    <ul>
+                        <li><a href="#">Welcome</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">License</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer><!-- END #colophon-->
+
+</div><!-- END #page -->
+
+<!-- Footer JS -->
+<script src="assets/js/config.js"></script>
+
+<script src="assets/js/libs.js"></script>
+<script src="assets/js/libs/semantic.min.js"></script>
+<script src="assets/js/libs/owl.carousel.js"></script>
+<script src="assets/js/global.js"></script>
+
+<script src="assets/ST-User/js/user.js"></script>
+
+</body>
+</html>
