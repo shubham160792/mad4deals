@@ -3854,6 +3854,12 @@ SOCIAL LOGIN & REGISTER
   min-width: 195px;
   text-align: center;
 }
+
+.flip {
+ 
+  padding: 11px 38px !important;
+ 
+}
 /* line 77, assets/sass/_support.scss */
 .coupon-button-type .coupon-deal:hover, .coupon-button-type .coupon-print:hover, .coupon-button-type .coupon-code:hover {
   opacity: 0.9;
