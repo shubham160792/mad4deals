@@ -1,6 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine On
-
-RewriteBase /
-
-RewriteRule ^view/(.*)$ getImageData.php?image_url=$1 [L,QSA]
