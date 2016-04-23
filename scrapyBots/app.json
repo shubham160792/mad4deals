@@ -1,0 +1,21 @@
+{
+  "name": "Scrapy-Bots",
+  "description": "App for crawling structured data from websites",
+  "repository": "https://github.com/shubhamDTU007/scrapy-bots/",
+  "require": {
+		 "python": "2.7.*",
+		 "scrapy": "1.x"
+	},
+  "scripts": {
+		"scrapy-installation-cmd": "pip install scrapy",
+		"scrapy-post-installation-cmd": [
+			"scrapy startproject newproject",
+			"scrapy list",
+            "scrapy bench"
+		]
+	},
+  "ref":{
+    "scrapy_official_download_url":"http://scrapy.org/download/",
+    "scrapy_official_doc_url":"http://scrapy.org/doc/"
+  }
+}
