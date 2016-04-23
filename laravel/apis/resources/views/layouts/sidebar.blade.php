@@ -20,9 +20,6 @@
             <li>
                 <a href="{{ URL::to('storeUrls') }}">Store Product Url Controller</a>
             </li>
-            <li>
-                <a href="{{ URL::to('products') }}">Products</a>
-            </li>
         </ul>
     </div>
     <!-- /#sidebar-wrapper -->

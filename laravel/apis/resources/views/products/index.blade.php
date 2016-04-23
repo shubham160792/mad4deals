@@ -62,7 +62,7 @@
                         </td>
                         <td>
                             <!-- we will add this later since its a little more complicated than the other two buttons -->
-                            {{ Form::open(array('url' => 'products/' . $value->id.'?category_id='.$category->id.'&subcategory_id='.$subcategory->id, 'class' => 'pull-left')) }}
+                            {{ Form::open(array('url' => 'products/' . $value->id.'?table_name='.$tableName, 'class' => 'pull-left')) }}
                             {{ Form::hidden('_method', 'DELETE') }}
                             {{ Form::submit('x', array('class' => 'btn-danger btn-sm alerts')) }}
                             {{ Form::close() }}
