@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="assets/css/semantic.min.css">
     <link rel="stylesheet" href="style.css">
-
+ <link rel="stylesheet" href="compressor.finder.min.css?v=1218">
     <!-- Header JS -->
     <script src="assets/js/jquery-1.11.1.min.js"></script>
 
