@@ -8,7 +8,6 @@
         </ul>
     </nav>
     <h3>Edit {{ $product->name }}</h3>
-{{$product->gender}}
     <!-- if there are creation errors, they will show here -->
     {{ Html::ul($errors->all()) }}
 
@@ -16,22 +15,22 @@
 
     <div class="form-group">
         {{ Form::label('CategoryId', 'Category Id') }}
-        {{ Form::text('categoryId', $category->id, array('class' => 'form-control')) }}
+        {{ Form::text('categoryId', $category->id, array('class' => 'form-control', 'readonly' => 'true')) }}
     </div>
 
     <div class="form-group">
         {{ Form::label('Subcategory Id', 'Subcategory Id') }}
-        {{ Form::text('subcategoryId', $subcategory->id, array('class' => 'form-control')) }}
+        {{ Form::text('subcategoryId', $subcategory->id, array('class' => 'form-control', 'readonly' => 'true')) }}
     </div>
 
     <div class="form-group">
         {{ Form::label('Product name', 'Product name') }}
-        {{ Form::text('name', $product->name, array('class' => 'form-control')) }}
+        {{ Form::text('name', $product->name, array('class' => 'form-control'),['disabled'=>'disabled']) }}
     </div>
 
     <div class="form-group">
         {{ Form::label('Product brand', 'Product brand') }}
-        {{ Form::text('brand', $product->brand, array('class' => 'form-control')) }}
+        {{ Form::text('brand', $product->brand, array('class' => 'form-control'),['disabled'=>'disabled']) }}
     </div>
 
     <div class="form-group">

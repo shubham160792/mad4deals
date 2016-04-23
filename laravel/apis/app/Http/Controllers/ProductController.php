@@ -84,30 +84,34 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $rules = array(
-            'name'             => 'required',
-            'brand'            => 'required',
-            'gender'           => 'required',
-            'imagesPath'       => 'required'
-        );
         $categoryId            = Input::get('category_id');
         $subcategoryId         = Input::get('subcategory_id');
-
+        $tableName      = \DB::table('products')
+            ->where(['category_id' => $categoryId, 'subcategory_id' => $subcategoryId])
+            ->get();
+        $tableName      = $tableName[0]->table_name;
+        if($tableName == 'footwear'){
+            $rules = array(
+                'name'             => 'required',
+                'brand'            => 'required',
+                'gender'           => 'required',
+                'imagesPath'       => 'required'
+            );
+        }
         $validator = Validator::make(Input::all(), $rules);
-
         if ($validator->fails()) {
             return Redirect::to('products/create?category_id='.$categoryId.'&subcategory_id='.$subcategoryId)
                 ->withErrors($validator)
                 ->withInput(Input::except('password'));
         } else {
-            // Product
-            $product                                       = new Footwear();
-            $product->name                                 = Input::get('name');
-            $product->brand                                = Input::get('brand');
-            $product->gender                               = Input::get('gender');
-            $product->images_path                          = Input::get('imagesPath');
-            $product->save();
-
+            if($tableName == 'footwear'){
+                $product                                       = new Footwear();
+                $product->name                                 = Input::get('name');
+                $product->brand                                = Input::get('brand');
+                $product->gender                               = Input::get('gender');
+                $product->images_path                          = Input::get('imagesPath');
+                $product->save();
+            }
             // redirect
             Session::flash('message', 'Successfully created product!');
             return Redirect::to('products?category_id='.$categoryId.'&subcategory_id='.$subcategoryId);
@@ -158,7 +162,7 @@ class ProductController extends Controller
             'product'         => $product,
             'category'        => $category,
             'subcategory'     => $subcategory,
-            'productUrl'      => $product
+            'tableName'       => $tableName
         );
         // show the edit form and pass the product
         return View('products.edit')
@@ -204,7 +208,7 @@ class ProductController extends Controller
                 $product->save();
             }
             // redirect
-            Session::flash('message', 'Successfully created product!');
+            Session::flash('message', 'Successfully updated product!');
             return Redirect::to('products?category_id='.$categoryId.'&subcategory_id='.$subcategoryId);
         }
     }

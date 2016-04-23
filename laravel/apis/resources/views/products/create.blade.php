@@ -4,7 +4,6 @@
     <nav class="navbar navbar-inverse">
         <ul class="nav navbar-nav">
             <li><a href="{{ URL::to('products?category_id='.$category->id.'&subcategory_id='.$subcategory->id) }}">View all Products</a></li>
-            <li><a href="{{ URL::to('products/create?category_id='.$category->id.'&subcategory_id='.$subcategory->id) }}">Create new Product</a>
         </ul>
     </nav>
     <h3>Create New Product</h3>
