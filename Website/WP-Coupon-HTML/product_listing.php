@@ -64,7 +64,7 @@ include('sub-header.php');
                             <div class="store-listing-item coupon-listing-item shadow-box">
                                 <div class="store-thumb-link">
                                     <div class="store-thumb">
-                                        <a href="#"><img src="thumb/coupons/c2.jpg" alt=""></a>
+                                        <a href="product_detail.php"><img src="thumb/coupons/c2.jpg" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="latest-coupon">
@@ -74,6 +74,7 @@ include('sub-header.php');
            
 
                 </div>
+                <div style="clear:both"></div>
                                     <div class="c-type">
                                         <div class="compare2">
               <div style="margin-bottom: 5px;">
@@ -87,6 +88,20 @@ include('sub-header.php');
               <div data-title="32 GB Internal memory + 32 GB Expandable" class="tooltip finder_icon2 icn_storage"></div>
                           </div>
                                     </div>
+                                    <div class="c-type right">
+                                        <div class="compare2">
+              <div style="margin-bottom: 5px;">
+                
+              </div>
+              <div data-title="Rs. 2000/." class="tooltip finder_icon22 paytm"><a href="#"></a></div>
+              <div data-title="Rs. 1800/." class="tooltip finder_icon22 snapdeal"><a href="#"></a></div>
+              <div data-title="Rs. 1950/." class="tooltip finder_icon22 fcart"><a href="#"></a></div>
+              <div data-title="Rs. 2100/." class="tooltip finder_icon22 amejan"><a href="#"></a></div>
+              <div data-title="Rs. 2209/." class="tooltip finder_icon22 shopcluse"><a href="#"></a></div>
+              
+                          </div>
+                                    </div>
+                                 <div style="clear:both"></div>   
                                     <div class="coupon-des">
                                       <div class="filter-grey-bar" style="background-color:#f7f7f7;">
             <li style="float:left;">Performance
@@ -125,23 +140,23 @@ include('sub-header.php');
         </div>
                                     </div>
                                 </div>
-                                <div class="coupon-detail coupon-button-type">
+                                <!-- <div class="coupon-detail coupon-button-type">
                                   <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Flipkart</a>
                                    <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Snapdeal</a> 								 <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Amazon</a>
 
 
-                                   <!-- <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
+                                   <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
                                         <span class="code-text">EMIAXHGF</span>
                                         <span class="get-code">Get Code</span>
-                                    </a>-->
+                                    </a>
                                     <div class="clear"></div>
-                                   <!-- <div class="user-ratting ui icon basic buttons">
+                                   <div class="user-ratting ui icon basic buttons">
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="This worked" data-variation="inverted"><i class="smile icon"></i></div>
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="It didn't work" data-variation="inverted"><i class="frown icon"></i></div>
                                         <div class="save-coupon ui button icon-popup" data-offset="0" data-position="bottom left" data-content="Save this coupon" data-variation="inverted"><i class="empty star icon"></i></div>
                                     </div>
-                                    <span class="voted-value">100% Success</span>-->
-                                </div>
+                                    <span class="voted-value">100% Success</span>
+                                </div> -->
                                 <div class="clear"></div>
                                 <div class="coupon-footer coupon-listing-footer">
                                     <ul class="clearfix">
@@ -307,6 +322,7 @@ include('sub-header.php');
            
 
                 </div>
+                <div style="clear:both"></div>
                                     <div class="c-type">
                                         <div class="compare2">
               <div style="margin-bottom: 5px;">
@@ -320,6 +336,20 @@ include('sub-header.php');
               <div data-title="32 GB Internal memory + 32 GB Expandable" class="tooltip finder_icon2 icn_storage"></div>
                           </div>
                                     </div>
+                                    <div class="c-type right">
+                                        <div class="compare2">
+              <div style="margin-bottom: 5px;">
+                
+              </div>
+              <div data-title="Rs. 2000/." class="tooltip finder_icon22 paytm"><a href="#"></a></div>
+              <div data-title="Rs. 1800/." class="tooltip finder_icon22 snapdeal"><a href="#"></a></div>
+              <div data-title="Rs. 1950/." class="tooltip finder_icon22 fcart"><a href="#"></a></div>
+              <div data-title="Rs. 2100/." class="tooltip finder_icon22 amejan"><a href="#"></a></div>
+              <div data-title="Rs. 2209/." class="tooltip finder_icon22 shopcluse"><a href="#"></a></div>
+              
+                          </div>
+                                    </div>
+                                 <div style="clear:both"></div>   
                                     <div class="coupon-des">
                                       <div class="filter-grey-bar" style="background-color:#f7f7f7;">
             <li style="float:left;">Performance
@@ -358,23 +388,23 @@ include('sub-header.php');
         </div>
                                     </div>
                                 </div>
-                                <div class="coupon-detail coupon-button-type">
+                                <!-- <div class="coupon-detail coupon-button-type">
                                   <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Flipkart</a>
                                    <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Snapdeal</a> 								 <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Amazon</a>
 
 
-                                   <!-- <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
+                                   <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
                                         <span class="code-text">EMIAXHGF</span>
                                         <span class="get-code">Get Code</span>
-                                    </a>-->
+                                    </a>
                                     <div class="clear"></div>
-                                   <!-- <div class="user-ratting ui icon basic buttons">
+                                   <div class="user-ratting ui icon basic buttons">
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="This worked" data-variation="inverted"><i class="smile icon"></i></div>
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="It didn't work" data-variation="inverted"><i class="frown icon"></i></div>
                                         <div class="save-coupon ui button icon-popup" data-offset="0" data-position="bottom left" data-content="Save this coupon" data-variation="inverted"><i class="empty star icon"></i></div>
                                     </div>
-                                    <span class="voted-value">100% Success</span>-->
-                                </div>
+                                    <span class="voted-value">100% Success</span>
+                                </div> -->
                                 <div class="clear"></div>
                                 <div class="coupon-footer coupon-listing-footer">
                                     <ul class="clearfix">
@@ -540,6 +570,7 @@ include('sub-header.php');
            
 
                 </div>
+                <div style="clear:both"></div>
                                     <div class="c-type">
                                         <div class="compare2">
               <div style="margin-bottom: 5px;">
@@ -553,6 +584,20 @@ include('sub-header.php');
               <div data-title="32 GB Internal memory + 32 GB Expandable" class="tooltip finder_icon2 icn_storage"></div>
                           </div>
                                     </div>
+                                    <div class="c-type right">
+                                        <div class="compare2">
+              <div style="margin-bottom: 5px;">
+                
+              </div>
+              <div data-title="Rs. 2000/." class="tooltip finder_icon22 paytm"><a href="#"></a></div>
+              <div data-title="Rs. 1800/." class="tooltip finder_icon22 snapdeal"><a href="#"></a></div>
+              <div data-title="Rs. 1950/." class="tooltip finder_icon22 fcart"><a href="#"></a></div>
+              <div data-title="Rs. 2100/." class="tooltip finder_icon22 amejan"><a href="#"></a></div>
+              <div data-title="Rs. 2209/." class="tooltip finder_icon22 shopcluse"><a href="#"></a></div>
+              
+                          </div>
+                                    </div>
+                                 <div style="clear:both"></div>   
                                     <div class="coupon-des">
                                       <div class="filter-grey-bar" style="background-color:#f7f7f7;">
             <li style="float:left;">Performance
@@ -591,23 +636,23 @@ include('sub-header.php');
         </div>
                                     </div>
                                 </div>
-                                <div class="coupon-detail coupon-button-type">
+                                <!-- <div class="coupon-detail coupon-button-type">
                                   <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Flipkart</a>
                                    <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Snapdeal</a> 								 <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Amazon</a>
 
 
-                                   <!-- <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
+                                   <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
                                         <span class="code-text">EMIAXHGF</span>
                                         <span class="get-code">Get Code</span>
-                                    </a>-->
+                                    </a>
                                     <div class="clear"></div>
-                                   <!-- <div class="user-ratting ui icon basic buttons">
+                                   <div class="user-ratting ui icon basic buttons">
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="This worked" data-variation="inverted"><i class="smile icon"></i></div>
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="It didn't work" data-variation="inverted"><i class="frown icon"></i></div>
                                         <div class="save-coupon ui button icon-popup" data-offset="0" data-position="bottom left" data-content="Save this coupon" data-variation="inverted"><i class="empty star icon"></i></div>
                                     </div>
-                                    <span class="voted-value">100% Success</span>-->
-                                </div>
+                                    <span class="voted-value">100% Success</span>
+                                </div> -->
                                 <div class="clear"></div>
                                 <div class="coupon-footer coupon-listing-footer">
                                     <ul class="clearfix">
@@ -773,6 +818,7 @@ include('sub-header.php');
            
 
                 </div>
+                <div style="clear:both"></div>
                                     <div class="c-type">
                                         <div class="compare2">
               <div style="margin-bottom: 5px;">
@@ -786,6 +832,20 @@ include('sub-header.php');
               <div data-title="32 GB Internal memory + 32 GB Expandable" class="tooltip finder_icon2 icn_storage"></div>
                           </div>
                                     </div>
+                                    <div class="c-type right">
+                                        <div class="compare2">
+              <div style="margin-bottom: 5px;">
+                
+              </div>
+              <div data-title="Rs. 2000/." class="tooltip finder_icon22 paytm"><a href="#"></a></div>
+              <div data-title="Rs. 1800/." class="tooltip finder_icon22 snapdeal"><a href="#"></a></div>
+              <div data-title="Rs. 1950/." class="tooltip finder_icon22 fcart"><a href="#"></a></div>
+              <div data-title="Rs. 2100/." class="tooltip finder_icon22 amejan"><a href="#"></a></div>
+              <div data-title="Rs. 2209/." class="tooltip finder_icon22 shopcluse"><a href="#"></a></div>
+              
+                          </div>
+                                    </div>
+                                 <div style="clear:both"></div>   
                                     <div class="coupon-des">
                                       <div class="filter-grey-bar" style="background-color:#f7f7f7;">
             <li style="float:left;">Performance
@@ -824,23 +884,23 @@ include('sub-header.php');
         </div>
                                     </div>
                                 </div>
-                                <div class="coupon-detail coupon-button-type">
+                                <!-- <div class="coupon-detail coupon-button-type">
                                   <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Flipkart</a>
                                    <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Snapdeal</a> 								 <a href="#" class="coupon-deal coupon-button flip" data-aff-url="http://www.flipkart.com/">Amazon</a>
 
 
-                                   <!-- <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
+                                   <a href="#" class="coupon-button coupon-code" data-aff-url="http://www.flipkart.com/">
                                         <span class="code-text">EMIAXHGF</span>
                                         <span class="get-code">Get Code</span>
-                                    </a>-->
+                                    </a>
                                     <div class="clear"></div>
-                                   <!-- <div class="user-ratting ui icon basic buttons">
+                                   <div class="user-ratting ui icon basic buttons">
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="This worked" data-variation="inverted"><i class="smile icon"></i></div>
                                         <div class="ui button icon-popup" data-offset="0" data-position="bottom left" data-content="It didn't work" data-variation="inverted"><i class="frown icon"></i></div>
                                         <div class="save-coupon ui button icon-popup" data-offset="0" data-position="bottom left" data-content="Save this coupon" data-variation="inverted"><i class="empty star icon"></i></div>
                                     </div>
-                                    <span class="voted-value">100% Success</span>-->
-                                </div>
+                                    <span class="voted-value">100% Success</span>
+                                </div> -->
                                 <div class="clear"></div>
                                 <div class="coupon-footer coupon-listing-footer">
                                     <ul class="clearfix">
@@ -1940,135 +2000,176 @@ include('sub-header.php');
 
             <div id="secondary" class="widget-area sidebar">
                 <aside class="widget widget_newsletter">
-                    <h4 class="widget-title">Nature Coupon Into your inbox</h4>
-                    <div class="newsletter-box-wrapper shadow-box">
-                        <form id="newsletter-box-widget">
-                            <div class="ui action left icon input">
-                                <input placeholder="Enter your email ..." type="text">
-                                <i class="mail outline icon"></i>
-                                <div class="ui button">Subscribe</div>
-                            </div>
-                            <div class="clear"></div>
-                            <div class="newsletter-text">You can opt out of our newsletters at any time. See our <a href="#">privacy policy</a>.</div>
-                        </form>
+                    <h4 class="widget-title">Price Range</h4>
+ 					<div class="pricerange"><div id="price-filter"></div>
+ <div class="clear" style="margin:5px 0;"></div>
+ <span class="startprice cusval">Rs.- <input type="text" id="amount1" / ></span> <span class="endprice cusval">Rs.- <input type="text" id="amount2" / ></span>
+ <div class="fixrangewrap">
+ <div class="fixrange">
+ <input type="radio" name="fixprice" id="fixprice1" data-min="2000" data-max="5000" /><label for="fixprice1">Rs. 2,000 - Rs. 5,000 </label>
+ 
+ </div>
+ <div class="fixrange">
+ <input type="radio" name="fixprice" id="fixprice2" data-min="5000" data-max="10000" /><label for="fixprice2">Rs. 5,000 - Rs. 10,000 </label>
+ </div>
+ <div class="fixrange">
+ <input type="radio" name="fixprice" id="fixprice3" data-min="10000" data-max="15000" /><label for="fixprice3">Rs. 10,000 - Rs. 15,000 </label>
+ </div>
+ <div class="fixrange">
+ <input type="radio" name="fixprice" id="fixprice4" data-min="15000" data-max="20000" /><label for="fixprice4">Rs. 15,000 - Rs. 20,000 </label>
+ </div>
+ <div class="fixrange">
+ <input type="radio" name="fixprice" id="fixprice5" data-min="20000" data-max="25000" /><label for="fixprice5">Rs. 20,000 - Rs. 25,000 </label>
+ </div>
+ </div>
+ </div>
+ 					<h4 class="widget-title achd">Featured Searches</h4>
+                    <div class="fetureswrp acexp">
+                    <input placeholder="Search Me" id="feturebox" class="filtext" type="text" onkeyup="filterofchk('feturebox','fetureswrp','feturebx','label')" />
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="feture1" value="123" /><label for="feture1">123 Select this </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="feture2" value="123" /><label for="feture2">245 choos this </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="feture3" value="123" /><label for="feture3">365 days of </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="feture4" value="123" /><label for="feture4">108 number for </label>
+                     
+                     </div>
                     </div>
+                    
+                    <h4 class="widget-title achd">Brands</h4>
+                    <div class="brandwrp acexp">
+                    <input placeholder="Search Me" class="filtext" id="brandbox" type="text" onkeyup="filterofchk('brandbox','brandwrp','feturebx','label')" />
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="brand1" value="123" /><label for="brand1">123 Select this </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="brand2" value="123" /><label for="brand2">245 choos this </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="brand3" value="123" /><label for="brand3">365 days of </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="brand4" value="123" /><label for="brand4">108 number for </label>
+                     
+                     </div>
+                    </div>
+                    
+                     <h4 class="widget-title achd">Market Status</h4>
+                    <div class="mswrp acexp">
+                    <input placeholder="Search Me" class="filtext" id="msbox" type="text" onkeyup="filterofchk('msbox','mswrp','feturebx','label')" />
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="ms1" value="123" /><label for="ms1">123 Select this </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="ms2" value="123" /><label for="ms2">245 choos this </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="ms3" value="123" /><label for="ms3">365 days of </label>
+                     
+                     </div>
+                    <div class="feturebx">
+                     <input type="checkbox" name="fixprice" id="ms4" value="123" /><label for="ms4">108 number for </label>
+                     
+                     </div>
+                    </div>
+                    
                 </aside>
 
-                <aside class="widget">
-                    <h4 class="widget-title">Submit Nature Coupon</h4>
-                    <div class="widget-content shadow-box">
-                        <div class="ui form">
-                            <div class="field">
-                                <input type="text" placeholder="Nature.com" disabled="disabled">
-                            </div>
-                            <div class="field">
-                                <select class="ui dropdown">
-                                    <option value="">Offer Type</option>
-                                    <option value="1">Coupon Code</option>
-                                    <option value="2">Sale</option>
-                                    <option value="3">Printable</option>
-                                </select>
-                            </div>
-                            <div class="field">
-                                <label>Add code or change offer type</label>
-                                <input type="text" placeholder="Code">
-                            </div>
-                            <div class="field">
-                                <input type="text" placeholder="Offer Title">
-                            </div>
-                            <div class="field ui icon input">
-                                <input type="text" placeholder="Exp Date : dd/mm/yyyy">
-                                <i class="calendar outline icon"></i>
-                            </div>
-                            <div class="inline field">
-                                <div class="ui checkbox">
-                                    <input type="checkbox">
-                                    <label>Don't know the expiration date.</label>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <textarea placeholder="Offer Description"></textarea>
-                            </div>
-                            <button class="fluid ui button btn btn_primary">Submit</button>
-                        </div>
-                    </div>
-                </aside>
-
-                <aside class="widget widget_popular_stores">
-                    <h4 class="widget-title">Related Stores</h4>
-                    <div class="widget-content shadow-box">
-                        <div class="ui two column grid">
-                            <div class="column">
-                                <div class="store-thumb">
-                                    <a href="single_store.html" class="ui image middle aligned">
-                                        <img src="thumb/stores/infinitygroup.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="store-thumb">
-                                    <a href="single_store.html" class="ui image middle aligned">
-                                        <img src="thumb/stores/nature.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="store-thumb">
-                                    <a href="single_store.html" class="ui image middle aligned">
-                                        <img src="thumb/stores/starlight.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="store-thumb">
-                                    <a href="single_store.html" class="ui image middle aligned">
-                                        <img src="thumb/stores/vientohotel.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="store-thumb">
-                                    <a href="single_store.html" class="ui image middle aligned">
-                                        <img src="thumb/stores/athleteform.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="store-thumb">
-                                    <a href="single_store.html" class="ui image middle aligned">
-                                        <img src="thumb/stores/scribble.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-                <aside class="widget widget_categories">
-                    <h4 class="widget-title">Related Categories</h4>
-                    <div class="widget-content shadow-box">
-                        <ul>
-                            <li><a href="category.html">Apparel</a></li>
-                            <li><a href="category.html">Accessories</a></li>
-                            <li><a href="category.html">Entertainment </a></li>
-                            <li><a href="category.html">Automotive</a></li>
-
-                            <li><a href="category.html">Personal Care</a></li>
-                            <li><a href="category.html">Books</a></li>
-                            <li><a href="category.html">Beverage</a></li>
-                            <li><a href="category.html">Business</a></li>
-
-                            <!-- <li><a href="#">Foods</a></li>
-                            <li><a href="#">Groceries</a></li> -->
-                        </ul>
-                    </div>
-                </aside>
-                <aside class="widget widget_text">
-                    <div class="ads-area">
-                        <div class="ui horizontal divider">Advertisement</div>
-                        <a href="#"><img src="assets/images/300.png" alt=""></a>
-                    </div>
-                </aside>
+                
             </div><!-- #secondary -->
         </div> <!-- /#content-wrap -->
 
     </div> <!-- END .site-content -->
+<script>
+  $(function() {
+	  var ttlnth=$('.store-listing-item').length;	
+var count=0;
+	$(window).scroll(function(){
+			if  ($(window).scrollTop() == $(document).height() - $(window).height()){
+				$('.store-listings').append('<div class="lazyload" style="text-align: center;"><img src="images/loader.gif" /></div>')
+				
+			   if(count<=ttlnth){
+				 $('.store-listing-item').eq(count).show();  
+				   }
+			   //alert(ttlnth);
+			   $('.store-listings .lazyload').remove();
+			   count++;
+			}
+		}); 
+	
+	  
+	  
+    $( "#price-filter" ).slider({
+      range: true,
+      min: 0,
+      max: 50000,
+      values: [ 75, 5000 ],
+      slide: function( event, ui ) {
+        $( "#amount1" ).val(ui.values[ 0 ]);
+		$( "#amount2" ).val(ui.values[ 1 ]);
+      }
+    });
+    $( "#amount1" ).val($( "#price-filter" ).slider( "values", 0 ) );
+	 $( "#amount2" ).val($( "#price-filter" ).slider( "values", 1 ) );
+	 $( "#amount1, #amount2" ).keyup(function() {
+     $( "#price-filter" ).slider( "values", [$( "#amount1" ).val(),$( "#amount2" ).val()]);
+    });
+	$('#price-filter').slider({change: function() { console.log('Your custom code after chnaging price value')}});
+	$('input:radio[name="fixprice"]').on('change', function(){
+	$( "#price-filter" ).slider( "values", [$(this).attr('data-min'),$(this).attr('data-max')]);	
+	$( "#amount1" ).val($(this).attr('data-min'));
+	$( "#amount2" ).val($(this).attr('data-max'));
+		});
+	/*Accordian */
+	
+	$('.achd').on('click', function(){
+		$(this).toggleClass('active').next('.acexp').slideToggle(500);
+		});
+	$('.store-listing-item').hide()
+	$('.store-listing-item').eq(0).show();	
+
+  });
+ 
+ function filterofchk(sa,wrapcls,boxcls,slector){
+var $this=$('#'+sa);
+var $selector=$('.'+wrapcls+' .'+boxcls+'>'+slector);
+    var valThis = $this.val().toLowerCase();
+    var noresult = 0;
+    if(valThis == ""){
+        $selector.parents('.'+boxcls).show();
+        noresult = 1;
+	    $('.no-results-found').remove();
+    } else {
+        $selector.each(function(){
+            var text = $(this).text().toLowerCase();
+            var match = text.indexOf(valThis);
+            if (match >= 0) {
+                $(this).parents('.feturebx').show();
+                noresult = 1;
+		        $('.no-results-found').remove();
+            } else {
+                $(this).parents('.feturebx').hide();
+            }
+        });
+   };
+    if (noresult == 0) {
+		if(!$("."+wrapcls).children().hasClass('no-results-found')){
+        $("."+wrapcls).append('<div class="no-results-found feturebx">No results found.</div>');
+		}
+    }
+	
+	}
+  </script>
