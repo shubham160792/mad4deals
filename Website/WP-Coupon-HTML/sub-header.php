@@ -14,7 +14,7 @@
                                 <li><a href="#"># Product Deals</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item-has-children"><a href="#">Stores</a>
+                        <li class="menu-item-has-children"><a href="product_listing.php">Stores</a>
                             <div class="nav-toggle-subarrow"><i class="plus icon"></i></div>
                             <ul class="sub-menu">
                                 <li><a href="single_store.html">Store Single</a></li>

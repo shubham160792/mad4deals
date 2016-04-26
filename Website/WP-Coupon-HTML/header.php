@@ -25,12 +25,19 @@
     ========================================================================= -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+ <link rel="stylesheet" href="grid.css">
+ <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
     <link rel="stylesheet" href="assets/css/semantic.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="filter.css">
  <link rel="stylesheet" href="compressor.finder.min.css?v=1218">
     <!-- Header JS -->
     <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="assets/js/jquery.carouFredSel.js"></script>
+    <script src="assets/js/jquery.elevateZoom-3.0.8.min.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
 
     <!-- PLUGIN CSS -->
 

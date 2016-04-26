@@ -1,0 +1,12 @@
+.pricerange{}
+/* .pricerange #price-filter{width:100%;display:inline-block;} */
+.ui-widget-header {background: #b9dc2f;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{background: #00979d;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{background:#ea4c89;}
+.pricerange .cusval{width:50%; display:block; float:left;}
+.pricerange .cusval input{padding:2px 3px; width:70%; font-size:12px;}
+.pricerange .cusval.endprice{text-align:right;}
+#secondary .filtext{padding:3px;    width: 100%;}
+.achd:before{content:""; width:25px; height:20px; float:left; background:url(thumb/icons/finder-sprite.png) no-repeat;background-position: -421px 0px;}
+.achd.active:before{background-position: -421px -19px;}
+.achd {background: #F1F1F1;padding: 5px; cursor:pointer;}
